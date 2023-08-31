@@ -4,7 +4,7 @@ option go_package = "github.com/Sona-28/netxd_project";
 
 package netxd_customer;
 
-service CustomerService {
+service TransactionService {
    rpc TransferMoney(TransactionData) returns (TransactionResponse);
 }
 
